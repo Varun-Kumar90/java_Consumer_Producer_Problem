@@ -46,12 +46,10 @@ Consumer_Producer/
 ├── Main.java
 ├── Producer.java
 ├── Consumer.java
-├── SharedBuffer.java
+├── Comp.java
 │
 ├── README.md
-├── .gitignore
-│
-└── screenshots/
+└── .gitignore
 ```
 
 ---
@@ -73,7 +71,7 @@ Producer thread responsible for generating data and storing it in the shared buf
 
 Consumer thread responsible for retrieving and processing data from the shared buffer.
 
-### SharedBuffer.java
+### Comp.java
 
 Shared resource used by both Producer and Consumer.
 
